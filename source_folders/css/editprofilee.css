@@ -1,0 +1,109 @@
+div.remindobackbtnuname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+div.remindobackbtnuname div.remindopagenamecontainerbox {
+  padding: 6px;
+  font-size: 22px;
+  color: gray;
+  font-weight: 600;
+  width: 167px;
+}
+
+div.remindochildboxycontainer {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+form.rmdoprofileditform {
+  padding: 15px;
+}
+
+form.rmdoprofileditform span.formchangableinputscontainerbox {
+  margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inherit;
+}
+
+form.rmdoprofileditform span.formchangableinputscontainerbox div.dpgriddivbox {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10px;
+}
+
+form.rmdoprofileditform
+  span.formchangableinputscontainerbox
+  div.dateofbitheditcontainer {
+  display: block;
+}
+
+form.rmdoprofileditform
+  span.formchangableinputscontainerbox
+  div.cakedaycontainer {
+  margin-bottom: 8px;
+}
+
+div.formsubmitbtncontainerbox {
+  display: -ms-grid;
+  display: grid;
+  padding: 13px;
+}
+
+div.formsubmitbtncontainerbox button.submiteditprofileform {
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+div.formsubmitbtncontainerbox button.submiteditprofileform:focus {
+  color: white;
+  background: cornflowerblue;
+}
+
+label {
+  font-size: 17px;
+}
+
+input.edtprflinptbx {
+  background: #f4f3f4;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  background: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+i.remindosymbols {
+  font-size: 18px;
+  color: #5d5353;
+  font-weight: 900;
+}
+/*# sourceMappingURL=editprofilee.css.map */

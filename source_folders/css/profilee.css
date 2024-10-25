@@ -1,0 +1,370 @@
+.remindoprofileenunavigationbtn {
+  display: none;
+}
+
+@media (min-width: 850px) {
+  .remindoprofileenunavigationbtn {
+    display: block;
+    float: right;
+  }
+}
+
+.rmdoprofilepgsidebarbox {
+  display: none;
+  position: relative;
+  background: white;
+  float: right;
+  width: 205px;
+  right: 0;
+  -webkit-box-shadow: 0 0 10px -3px #694e4e82;
+          box-shadow: 0 0 10px -3px #694e4e82;
+}
+
+.rmdoprofilepgsidebarbox ul.rmdosidnavul {
+  list-style-type: none;
+  margin: 6px 0px;
+  padding: 0 5px 0 10px;
+}
+
+.rmdoprofilepgsidebarbox ul.rmdosidnavul li.rmdosidnavulli {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.rmdoprofilepgsidebarbox ul.rmdosidnavul li.rmdosidnavulli:hover {
+  background-color: #e8f0fe;
+}
+
+.rmdoprofilepgsidebarbox ul.rmdosidnavul li.rmdosidnavulli i {
+  font-size: 16px;
+}
+
+.rmdoprofilepgsidebarbox ul.rmdosidnavul li.rmdosidnavulli h3.lititle {
+  margin: 2px;
+  font-weight: 400;
+}
+
+.remindoprofiletopnavigator {
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 0 0 10px -3px #694e4e82;
+          box-shadow: 0 0 10px -3px #694e4e82;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background: white;
+}
+
+@media (min-width: 850px) {
+  .remindoprofiletopnavigator {
+    display: none;
+  }
+}
+
+.remindochildboxycontainer {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  max-width: 850px;
+  margin: auto;
+}
+
+.remindobackbtnuname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 142px;
+}
+
+.remindoprofileusernamebox {
+  padding: 6px;
+  font-size: 22px;
+  color: gray;
+  font-weight: 600;
+}
+
+.remindorowsmallbiocontainerbox {
+  padding: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button.editremindouserprofilebtn {
+  background: transparent;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+.remindorowsmallbiocontainerbox .remindoprofilepicinprofilecontainer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px;
+}
+
+.remindorowsmallbiocontainerbox
+.remindoprofilepicinprofilecontainer
+img.remindologineduserprofilepic {
+  height: 100px;
+  width: 100px;
+  outline: none;
+  border-radius: 50%;
+  border: 2px solid #d8dadf;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  z-index: 0;
+}
+
+.remindorowsmallbiocontainerbox
+.remindoprofilepicinprofilecontainer
+.remindouserprofilepicchangeingbtnbox {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  background: #81d4fa;
+  color: black;
+  padding: 2px;
+  margin-top: -49px;
+  margin-left: 74px;
+}
+
+.remindorowsmallbiocontainerbox
+.remindoprofilepicinprofilecontainer
+.remindouserprofilepicchangeingbtnbox
+i.remindouserprofilepicchangebtn {
+  font-weight: 900;
+}
+
+.rmdprpicchngiptinprfpg {
+  display: none;
+}
+
+.remindorowsmallbiocontainerbox .remindoprofiledetailsbox {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+}
+
+.remindorowsmallbiocontainerbox
+.remindoprofiledetailsbox
+.remindouserfullusername,
+.remindouserconflgdetails,
+.remindouserenvlopemaildetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.remindorowsmallbiocontainerbox
+.remindoprofiledetailsbox
+.remindouserfullusername
+i.remindoatsymbol,
+.remindouserenvlopemaildetails i.remindoenvmailsymbol {
+  font-size: 16px;
+  color: #5d5353;
+  /* margin-top: 8px;
+    margin-bottom: 8px; */
+}
+
+.remindouserconflgdetails i.remindosymbols {
+  font-size: 16px;
+  color: #5d5353;
+  font-weight: 900;
+}
+
+.remindorowsmallbiocontainerbox
+.remindoprofiledetailsbox
+.remindouserfullusername
+h5.remindousername,
+.remindouserenvlopemaildetails h5.remindousermailid,
+.remindouserconflgdetails h5.remindousernewdt {
+  font-size: 16px;
+  color: #5d5353;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.remindouserconflgdetails h5.remindousernewdt {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+i.remindothumbbackpinsymbol {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  font-weight: 900;
+}
+
+.rowremindoprofiledetailscontainer {
+  margin: 10px;
+  padding: 3px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (160px)[2];
+      grid-template-columns: repeat(2, 160px);
+  grid-row-gap: 15px;
+}
+
+@media (min-width: 700px) {
+  .rowremindoprofiledetailscontainer {
+    -ms-grid-columns: (175px)[4];
+        grid-template-columns: repeat(4, 175px);
+  }
+}
+
+.remindopfnm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remindopfnm h1.profilepgnameremindo {
+  margin: 0;
+  padding: 0;
+}
+
+.remindopfnm i.editprofilebtn {
+  font-weight: bolder;
+}
+
+h4.remindousrfulnameh4tag {
+  margin-top: 4px;
+  font-size: 19px;
+}
+
+.profileandstatus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+hr {
+  border-width: 0;
+  border: 0.5px solid lightgray;
+}
+
+i.caretaccordationup {
+  font-weight: 800;
+}
+
+.remindobusinesspages .businessTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remindobusinesspages .businessTitle .icontitlebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.remindobusinesspages .businessTitle .icontitlebox h2.businesspagestitle {
+  margin: 0 0 0 6px;
+  padding: 0;
+}
+
+.remindobusinesspages .remindobusinesscontainerbox {
+  margin: 6px;
+  padding: 6px;
+  display: none;
+}
+
+.remindobusinesspages .remindobusinesscontainerbox .createabusinesspagebtnbox button.remindocreateanewbusiness {
+  border: 2px dashed #d2e3fc;
+  padding: 8px 10px;
+  width: 100%;
+  width: -webkit-fill-available;
+  border-radius: 6px;
+  background: #e8f0fe;
+  font-size: 18px;
+  outline: none;
+  color: #1967d2;
+}
+
+.remindobusinesspages .remindobusinesscontainerbox .createabusinesspagebtnbox button.remindocreateanewbusiness:hover {
+  background: #d2e3fc;
+}
+
+.remindobusinesspages .remindobusinesscontainerbox .createabusinesspagebtnbox button.remindocreateanewbusiness i.createnewbusinessiconbtn {
+  font-weight: 500;
+}
+
+.remindotabaccordation .accordationtitlebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remindotabaccordation .accordationtitlebox .icontitlebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.remindotabaccordation .accordationtitlebox .icontitlebox h2.accordationtitle {
+  margin: 0 0 0 6px;
+  padding: 0;
+}
+
+.remindotabaccordation .remindocontentcontainerbox {
+  margin: 6px;
+  padding: 6px;
+  display: block;
+}
+
+.remindotabaccordation .remindocontentcontainerbox .createarchivepagebtnbox button.remindocreateanew {
+  border: 2px dashed #d2e3fc;
+  padding: 8px 10px;
+  width: 100%;
+  width: -webkit-fill-available;
+  border-radius: 6px;
+  background: #e8f0fe;
+  font-size: 18px;
+  outline: none;
+  color: #1967d2;
+}
+
+.remindotabaccordation .remindocontentcontainerbox .createarchivepagebtnbox button.remindocreateanew:hover {
+  background: #d2e3fc;
+}
+
+.remindotabaccordation .remindocontentcontainerbox .createarchivepagebtnbox button.remindocreateanew i.createnewiconbtn {
+  font-weight: 500;
+}
+/*# sourceMappingURL=profilee.css.map */

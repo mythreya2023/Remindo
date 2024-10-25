@@ -1,0 +1,452 @@
+.rmdorylcamccntnrdvbx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  background: #ffffffba;
+  display: none;
+}
+
+.rmdo-rel-royl-camedtorcntngdvbx {
+  background-color: whitesmoke;
+  overflow: hidden;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 660px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px -2px #2b2626;
+          box-shadow: 0 0 5px -2px #2b2626;
+}
+
+.rmdo-rel-royl-camedtorcntngdvbx i.camicn {
+  font-weight: 900;
+}
+
+@media (max-width: 500px) {
+  .rmdo-rel-royl-camedtorcntngdvbx {
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    max-height: 100%;
+  }
+}
+
+.rmdo-rlcamradsplyr {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.rmdoroyl-camdsplycntngdvbx {
+  width: 100%;
+  height: 100%;
+}
+
+video#cam-dsplyr {
+  width: 100%;
+  height: 100%;
+  display: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.rmdorylcambtns-cntngdvbtndsdvbx {
+  position: relative;
+  bottom: 86px;
+  padding: 4px;
+  z-index: 5;
+}
+
+.cambtnscntngdvbx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.piccpturebtnprntdvbx {
+  height: 50px;
+  text-align: center;
+  width: 50px;
+  border-radius: 100px;
+  border: 5px solid white;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 3px -2px black;
+          box-shadow: 0 0 3px -2px black;
+  padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+.pccptrebtn {
+  -webkit-box-shadow: 0 0 3px -1px black;
+          box-shadow: 0 0 3px -1px black;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.piccpturebtnprntdvbx:active,
+.chngcamvwbtnasdvbtn:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.chngcamvwbtnasdvbtn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 50px;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.chngcamvwbtnasdvbtn i.fas.fa-sync-alt {
+  color: white;
+  text-shadow: 0 0 1px black;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.chngcamvwbtnasdvbtn i.fas.fa-camera {
+  color: white;
+  text-shadow: 0 0 1px black;
+  font-size: 22px;
+  position: absolute;
+}
+
+.rlcamtopnvbrhdrcntngdvbx {
+  position: relative;
+  margin-bottom: -5px;
+  padding: 3px;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.exitcamdvbtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  right: 30px;
+  top: 14px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.hdr-rght-sdeoptns {
+  width: 100px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  right: 30px;
+  top: 14px;
+  cursor: pointer;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.rmdo-royl-edtorgtbckbtn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 30px;
+  top: 14px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.exitcamdvbtn:active,
+.hdr-rght-sdeoptns i.fas:active,
+.rmdo-royl-edtorgtbckbtn:active,
+.moroptnsbtndvbtn:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.exitcamdvbtn i.fas.fa-times,
+.hdr-rght-sdeoptns i.fas,
+.rmdo-royl-edtorgtbckbtn i.fas.fa-arrow-left {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: 0 0 2px black;
+}
+
+.rmdo-rlpicedtordvbx {
+  width: 100%;
+  height: 100%;
+}
+
+.rmdo-cnvsedtor-man-dsplycntngdvbx {
+  width: 100%;
+  height: 100%;
+}
+
+.rmdo-lvmdl-dsplyrcnvs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.rmdo-royl-edtortphdr {
+  position: relative;
+  margin-bottom: -5px;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.rmdo-lvmdl-drwrcnvs {
+  display: none;
+}
+
+.moroptnsbtndvbtn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50px;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.moroptnsbtndvbtn i.fas.fa-circle-notch {
+  color: white;
+  text-shadow: 0 0 1px black;
+  font-size: 44px;
+  font-weight: 400;
+  -webkit-transform: rotate(125deg);
+          transform: rotate(125deg);
+}
+
+.moroptnsbtndvbtn i.fas.fa-plus {
+  color: white;
+  text-shadow: 0 0 1px black;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.slidecontainer {
+  width: 100%;
+  padding: 3px 10px;
+}
+
+.camsldr {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: linear-gradient(92deg, #3b804a 0%, #cdcdcdfa 0%);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.camsldr:hover {
+  opacity: 1;
+}
+
+.camsldr::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.camsldr::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.lvmdlszesldrcntngdvbx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: none;
+}
+
+.lvmdlszeiodcr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3px;
+  min-width: 100%;
+  margin: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.szettle {
+  padding: 3px 11px;
+  font-size: 18px;
+  font-weight: 600;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 35px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid lightgray;
+  background: #00000036;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.szettle:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+/*# sourceMappingURL=cameds.css.map */

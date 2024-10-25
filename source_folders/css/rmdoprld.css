@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.remindopageloaderdivbox {
+  height: 3px;
+  background: #ff8100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--width, 0) * 1%);
+  min-width: 1rem;
+  max-width: calc(100%-1em);
+  z-index: 100;
+}
+/*# sourceMappingURL=rmdoprld.css.map */

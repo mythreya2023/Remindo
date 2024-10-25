@@ -1,0 +1,79 @@
+/* body {
+  background: #ff8f26;
+} */
+.remindo-icon-box {
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  top: 5%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
+}
+.remindo-clock-icon {
+  height: 100px;
+  width: 100px;
+  /* margin-top: -px; */
+  margin-left: -12px;
+  border-radius: 50%;
+  background: #ff8f26;
+}
+.clock-ear1 {
+  height: 15px;
+  width: 25px;
+  /* background: #ff8f26; */
+  background: #ffffffe0;
+  border-radius: 50% 50% 10% 10%;
+  transform: rotate(-30deg);
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  left: 0px;
+}
+.clock-ear2 {
+  height: 15px;
+  width: 25px;
+  /* background: #ff8f26; */
+  background: #ffffffe0;
+  border-radius: 50% 50% 10% 10%;
+  transform: rotate(30deg);
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  left: 50px;
+}
+.clock-icon {
+  position: absolute;
+  top: 20px;
+  left: 6px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 3.4px solid #ffffffe0;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 3px;
+}
+.clock-icon-min {
+  height: 25px;
+  width: 4px;
+  /* margin-top: 3px; */
+  /* margin-left: 22px; */
+  margin-top: 7px;
+  margin-left: 32px;
+  border-radius: 3px;
+  background: #ffffffe0;
+  transform: rotate(50deg);
+  z-index: 3;
+}
+.clock-icon-hour {
+  height: 20px;
+  width: 4px;
+  /* margin-top: 3px; */
+  /* margin-left: 22px; */
+  margin-top: -15.4px;
+  margin-left: 14px;
+  border-radius: 3px;
+  background: #ffffffe0;
+  transform: rotate(-90deg);
+  z-index: 3;
+}
