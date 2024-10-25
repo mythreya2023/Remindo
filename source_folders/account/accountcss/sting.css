@@ -1,0 +1,352 @@
+body {
+  font-family: Helvetica;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+div.topnavigationandsearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px;
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 0 0 10px -3px #694e4e82;
+          box-shadow: 0 0 10px -3px #694e4e82;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  background: white;
+}
+
+div.topnavigationandsearch div.searchboxcontainerdiv {
+  display: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div.topnavigationandsearch button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+div.topnavigationandsearch button i.fas.fa-arrow-left {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+div.nonsearchboxcontainerdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.nonsearchboxcontainerdiv div.backbtnandtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px;
+  font-size: 22px;
+  color: gray;
+  font-weight: 600;
+  width: 167px;
+}
+
+div.nonsearchboxcontainerdiv div.backbtnandtitle div.remindosettingstitlebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 5px;
+}
+
+div.nonsearchboxcontainerdiv button.settingsshowsearchbtn {
+  float: left;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox {
+  margin: 5px;
+  padding: 5px;
+  margin-top: 17px;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.rmdasoptcontdivboxChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.rmdasoptcontdivboxChild:hover {
+  background: rgba(240, 235, 235, 0.897);
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.rmdasoptcontdivboxChild button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.rmdasoptcontdivboxChild button i {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.rmdasoptcontdivboxChild h2.rmdasoptcontdivboxChildtitle {
+  margin: 0;
+  font-weight: 300;
+  font-size: 23px;
+  color: rgba(24, 23, 23, 0.877);
+  letter-spacing: 1px;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.settingsswitchoptioncontainerdivbox div.switchaccountsiconbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.settingsswitchoptioncontainerdivbox div.switchaccountsiconbox button.user122btn {
+  margin-top: 14px;
+  margin-left: -16px;
+  -webkit-transform: rotate(83deg);
+          transform: rotate(83deg);
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.settingsswitchoptioncontainerdivbox div.switchaccountsiconbox i {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.settingsswitchoptioncontainerdivbox div.switchaccountsiconbox i.fas.fa-level-down-alt.user1touser2icon {
+  -webkit-transform: rotatex(132deg);
+          transform: rotatex(132deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.settingsswitchoptioncontainerdivbox div.switchaccountsiconbox i.fas.fa-user.user2 {
+  margin-top: 11px;
+  margin-left: -4px;
+}
+
+div.remindoaccountsettingsoptioncontainerdivbox div.settingsswitchoptioncontainerdivbox h2.switchaccountstitle {
+  margin-left: 6px;
+}
+
+div.settingspopupcontainerbox {
+  display: none;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 8px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 0 10px -3px #694e4e82;
+          box-shadow: 0 0 10px -3px #694e4e82;
+  z-index: 20;
+}
+
+div.settingspopupcontainerbox div.settingspopupheaderbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3px;
+}
+
+div.settingspopupcontainerbox div.settingspopupheaderbox h2.popupheadertitle {
+  margin: 6px;
+  padding: 0;
+  /* margin-bottom: -28px; */
+}
+
+div.settingspopupcontainerbox div.settingspopupheaderbox button.hidepopupbtn {
+  border: none;
+  border-radius: 100%;
+  padding: 6px;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: cursive;
+  outline: none;
+  float: right;
+}
+
+div.settingspopupcontainerbox div.settingspopupheaderbox button.hidepopupbtn:focus {
+  background: lightgray;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox {
+  padding: 6px;
+  font-size: 18px;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.userprofilecontainerbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 59px;
+  min-width: 285px;
+  border-radius: 6px;
+  background: #e8f0fe;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.userprofilecontainerbox img.userprofileimg {
+  border-radius: 60%;
+  margin: 2px 5px;
+  height: 52px;
+  width: 52px;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.userprofilecontainerbox .userprofilenameandusername {
+  padding: 5px;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.userprofilecontainerbox .userprofilenameandusername h2.profilename {
+  padding: 0;
+  margin: 0;
+  font-size: 21px;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.userprofilecontainerbox .userprofilenameandusername p.profileusrname {
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.addaccountsbox {
+  border-top: 1px solid #bfbbbb;
+  text-align: center;
+  margin-top: 16px;
+  padding-top: 6px;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.addaccountsbox button.addaccountbtn {
+  padding: 6px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: #e8f0fe;
+  font-size: 18px;
+  color: #1967d2;
+}
+
+div.settingspopupcontainerbox div.popupcontentcontainerbox div.addaccountsbox button.addaccountbtn:hover {
+  background: #d2e3fc;
+}
+
+.childsmlbox {
+  display: none;
+  font-size: 23px;
+  background: #edf3fa;
+  border-radius: 0px 6px 6px 0px;
+  margin-left: 24px;
+  padding: 4px;
+  border-left: 5px solid #a8caf3;
+}
+
+.childsmlbox .rmd2ndchlddvbx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3px;
+  margin: 0px 7px;
+  border-radius: 6px;
+}
+
+.childsmlbox .rmd2ndchlddvbx i {
+  padding: 0;
+  font-size: 18px;
+}
+
+.childsmlbox .rmd2ndchlddvbx:hover {
+  background-color: #ccdef7;
+}
+
+.childsmlbox .rmd2ndchlddvbx .switchandname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 270px;
+}
+
+.childsmlbox .rmd2ndchldttle {
+  margin: 3px 0 0 5px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(24, 23, 23, 0.877);
+  letter-spacing: 1px;
+}
+
+label {
+  font-size: 17px;
+}
+
+input {
+  background: #f4f3f4;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  width: 230px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+i.remindosymbols {
+  font-size: 18px;
+  color: #5d5353;
+  font-weight: 900;
+}
+
+@media (min-width: 140px) and (max-width: 300px) {
+  input {
+    width: 140px;
+  }
+}
+
+.snztimlst {
+  list-style-type: none;
+  padding: 5px;
+  width: 250px;
+}
+
+.snztimlst .radlist {
+  width: 20px;
+}
+
+.snztimlst li {
+  margin: 8px 0;
+}
+
+.snztimlst li label {
+  cursor: pointer;
+}
+/*# sourceMappingURL=sting.css.map */

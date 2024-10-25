@@ -1,0 +1,234 @@
+@mixin smallScrollbar($color, $width) {
+  &::-webkit-scrollbar {
+    width: $width;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-track {
+    width: 0;
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: $color;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  @include smallScrollbar(gray, 8px);
+}
+select {
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  @include smallScrollbar(darkgray, 4px);
+}
+.lgn_anlyts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lgn_anlts_bnr {
+  font-weight: 700;
+}
+.blue_btns {
+  background: #e8f0fe;
+  font-size: 18px;
+  color: #1967d2;
+  width: fit-content;
+  padding: 3px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 3px;
+}
+$flsh_shadow: 0 0 11px -10px black;
+.nw_sts_us_nm_dsply {
+  width: 80%;
+  min-height: 80px;
+  border: 1px solid #eaeaea;
+  margin: auto;
+  border-radius: 3px;
+  background: white;
+  padding: 6px;
+  box-shadow: $flsh_shadow;
+}
+.t_big_nm_sts_dsply {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  padding: 3px;
+  margin: 6px;
+}
+.hgst_oth_sts_sml_dsply {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.hst_dsply_ttl {
+  cursor: pointer;
+  font-weight: 600;
+  color: darkslategray;
+  text-decoration: underline dashed gray;
+}
+.T_nms_dsply {
+  display: flex;
+  font-size: 30px;
+  .t_nms_htg {
+    font-weight: 600;
+    color: darkslategray;
+  }
+  .t_nm_htg {
+    font-weight: 400;
+    margin-left: 6px;
+  }
+}
+.anlts_bd_dvbx {
+  width: 80%;
+  height: fit-content;
+  padding: 6px;
+  padding-top: 26px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
+  justify-content: center;
+}
+.anl_cds_dsply {
+  $crd_ht: 320px;
+  $crd_top_hdr: 60px;
+  $crd_bdy: calc($crd_ht-$crd_top_hdr);
+  min-width: 350px;
+  min-height: $crd_ht;
+  max-height: 410px;
+  overflow: hidden;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+  box-shadow: $flsh_shadow;
+  .crd_tp_hdr {
+    min-height: 60px;
+    border-bottom: 1px solid lightgray;
+    padding: 6px 6px 0 6px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .anl_crd_bdy {
+    padding: 6px;
+    min-height: 205px;
+    .crd_tbl_bdy {
+      max-height: 330px;
+      overflow: auto;
+      @include smallScrollbar(darkgray, 0px);
+      &:hover {
+        @include smallScrollbar(darkgray, 3px);
+      }
+    }
+  }
+}
+.hdr_tp_cntdbx {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline dashed;
+}
+.hdr_btm_cntdbx {
+  padding: 5px 5px 0 5px;
+  font-size: 16px;
+  span.crd_ttl2_qst {
+    font-weight: 500;
+    color: darkslategray;
+  }
+}
+$scrd_clm1: 205px;
+$scrd_clm2: 50px;
+// grid-template-columns: 205px 55px 36px 30px;
+.crd_tbl_hdr {
+  display: grid;
+  grid-template-columns: $scrd_clm1 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2;
+  color: darkslategray;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid darkslategray;
+  padding: 3px;
+}
+.tbl_rws {
+  display: grid;
+  grid-template-columns: $scrd_clm1 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2 $scrd_clm2;
+  font-size: 13px;
+  padding: 3px;
+  border-bottom: 1px solid lightgray;
+}
+.crd_hdr_btns {
+  display: flex;
+}
+.dta_vsultn_dsply {
+  display: flex;
+}
+.cnvstpdv {
+  overflow: auto;
+  @include smallScrollbar(lightgray, 3px);
+}
+.shrt_nvgtn_dv_bx {
+  position: fixed;
+  left: 0;
+  z-index: 20;
+  cursor: move;
+  background: white;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 7px -5px black;
+  &:hover {
+    left: 0;
+  }
+  &:focus {
+    cursor: grabbing;
+  }
+}
+.srt_nv_dsply {
+  padding: 3px;
+}
+.ddl_cnvs_dsply {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  .ddl_cnvs {
+    background-color: #0000;
+    cursor: url("http://localhost/remindo/includes/fn_gifs/pencil.svg"), auto;
+  }
+}
+.ddl_clrs_dvbx {
+  display: none;
+}
+.ddl_btns {
+  cursor: pointer;
+}
+.ddl_clrs {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+#get_ddl_clr {
+  border-radius: 119px;
+  padding: 0;
+  height: 25px;
+  width: 36px;
+  border: 0;
+  background: transparent;
+}
+.horiz {
+  text-align: center;
+  font-weight: 900;
+  color: darkslategray;
+  cursor: pointer;
+}

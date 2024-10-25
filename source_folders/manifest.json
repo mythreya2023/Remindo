@@ -1,0 +1,72 @@
+{
+  "name": "Remindo",
+  "short_name": "Remindo",
+  "start_url": "http://localhost/remindo/",
+  "background_color": "#FF8F26",
+  "display": "Standalone",
+  "theme_color": "#FF8F26",
+  "orientation":"portrait-primary",
+  
+"icons": [
+  {
+    "src": "includes/fn_img/alaram96.png",
+    "type": "image/png",
+    "sizes": "96x96",
+    "purpose": "any"
+  },
+  {
+    "src": "includes/fn_img/alarmclock.png",
+    "type": "image/png",
+    "sizes": "192x192",
+    "purpose": "any"
+  },
+  {
+    "src": "includes/fn_img/alaram96.png",
+    "type": "image/png",
+    "sizes": "96x96",
+    "purpose": "maskable"
+  },
+  {
+    "src": "includes/fn_img/alarmclock.png",
+    "type": "image/png",
+    "sizes": "192x192",
+    "purpose": "maskable"
+  },
+  {
+    "src": "includes/fn_img/alarmclock512.png",
+    "type": "image/png",
+    "sizes": "512x512",
+    "purpose": "any"
+  },
+  {
+      "src": "includes/fn_img/alarmclock256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+    "purpose": "any"
+  },
+  {
+      "src": "includes/fn_img/alarmclock384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+    "purpose": "any"
+  },
+  {
+    "src": "includes/fn_img/alarmclock512.png",
+    "type": "image/png",
+    "sizes": "512x512",
+    "purpose": "maskable"
+  },
+  {
+      "src": "includes/fn_img/alarmclock256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+    "purpose": "maskable"
+  },
+  {
+      "src": "includes/fn_img/alarmclock384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+    "purpose": "maskable"
+  }
+]
+}

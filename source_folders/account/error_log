@@ -1,0 +1,16 @@
+[31-May-2021 03:40:00 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/a81ulzqers8c/public_html/account/settings.php:50
+Stack trace:
+#0 /home/a81ulzqers8c/public_html/account/settings.php(93): settingspage->settingsbox()
+#1 {main}
+  thrown in /home/a81ulzqers8c/public_html/account/settings.php on line 50
+[31-May-2021 03:40:52 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/a81ulzqers8c/public_html/account/settings.php:50
+Stack trace:
+#0 /home/a81ulzqers8c/public_html/account/settings.php(93): settingspage->settingsbox()
+#1 {main}
+  thrown in /home/a81ulzqers8c/public_html/account/settings.php on line 50
+[05-Jun-2021 10:42:41 UTC] PHP Warning:  Undefined array key "ssndi" in /home/a81ulzqers8c/public_html/account/acntstgsprvc.php on line 20
+[05-Jun-2021 10:42:41 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/a81ulzqers8c/public_html/account/settings.php:50
+Stack trace:
+#0 /home/a81ulzqers8c/public_html/account/settings.php(108): settingspage->settingsbox()
+#1 {main}
+  thrown in /home/a81ulzqers8c/public_html/account/settings.php on line 50
