@@ -2,7 +2,7 @@
 
 **Remindo** began as a business idea and quickly transformed into a fully deployed application. It connected wholesalers with retailers to streamline bulk saree purchases. Retailers could browse through a marketplace of wholesalers, choose a shop, explore their products, and place orders that they could track. Meanwhile, wholesalers had full control over their shops, managing products, viewing orders, and communicating with retailers. Remindo also featured **push notifications and email notifications** to ensure every order and update reached the user instantly.
 
-It was DEPLOYED in March 2021 and shut down in Dec 2021.
+It was **DEPLOYED** in March 2021 and shut down in Dec 2021.
 
 ## 🛠️ Key Features
 
@@ -13,9 +13,9 @@ It was DEPLOYED in March 2021 and shut down in Dec 2021.
 - **Shop Management for Wholesalers**: Wholesalers can create their shop, manage product listings, and track orders.
 - **Push and Email Notifications**: Users receive timely updates for order statuses, new products, and more via emails and push notifications.
 
-## ⚙️ Technologies Used
-
 This project was my first real-time, end-to-end web application, built with a focus on functional, user-driven design and efficient backend operations.
+
+## ⚙️ Technologies Used
 
 - **Frontend**: HTML, CSS, SCSS, JavaScript, jQuery
 - **Backend**: PHP, MySQL
@@ -38,4 +38,3 @@ This project was my first real-time, end-to-end web application, built with a fo
 <img width="189" alt="11" src="https://github.com/user-attachments/assets/69877e08-c05d-4b8c-a207-b1570665ccc5">
 <img width="189" alt="12" src="https://github.com/user-attachments/assets/14dbc3ad-fe1a-444e-a914-efee0530f017">
 </p>
-
