@@ -17,7 +17,7 @@ It was DEPLOYED in March 2021 and shut down in Dec 2021.
 
 This project was my first real-time, end-to-end web application, built with a focus on functional, user-driven design and efficient backend operations.
 
-- **Frontend**: HTML, CSS, JavaScript, jQuery
+- **Frontend**: HTML, CSS, SCSS, JavaScript, jQuery
 - **Backend**: PHP, MySQL
 - **Real-Time Notifications**: Push notifications, email integration for instant updates
 - **Database**: MySQL for structured storage and fast queries
