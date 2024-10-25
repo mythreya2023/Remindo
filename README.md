@@ -2,6 +2,8 @@
 
 **Remindo** began as a business idea and quickly transformed into a fully deployed application. It connected wholesalers with retailers to streamline bulk saree purchases. Retailers could browse through a marketplace of wholesalers, choose a shop, explore their products, and place orders that they could track. Meanwhile, wholesalers had full control over their shops, managing products, viewing orders, and communicating with retailers. Remindo also featured **push notifications and email notifications** to ensure every order and update reached the user instantly.
 
+It was DEPLOYED in March 2021 and shut down in Dec 2021.
+
 ## 🛠️ Key Features
 
 - **Marketplace View**: Retailers can view and choose from various wholesale shops.
